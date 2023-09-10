@@ -1,0 +1,116 @@
+91816@Navi_Gill MINGW64 ~/gill (master)
+$ ls
+chapter1.txt   README.TXT  Text.txt   Text3.txt
+package.bluej  story/      Text2.txt
+
+91816@Navi_Gill MINGW64 ~/gill (master)
+$ cd story
+
+91816@Navi_Gill MINGW64 ~/gill/story (master)
+$ ls
+
+91816@Navi_Gill MINGW64 ~/gill/story (master)
+$ git init
+Initialized empty Git repository in C:/Users/91816/gill/story/.git/
+
+91816@Navi_Gill MINGW64 ~/gill/story (master)
+$ cd gill
+bash: cd: gill: No such file or directory
+
+91816@Navi_Gill MINGW64 ~/gill/story (master)
+$ cd ..
+
+91816@Navi_Gill MINGW64 ~/gill (master)
+$ rm chapter1.txt
+
+91816@Navi_Gill MINGW64 ~/gill (master)
+$ cd story
+
+91816@Navi_Gill MINGW64 ~/gill/story (master)
+$ touch chapter1.txt
+
+91816@Navi_Gill MINGW64 ~/gill/story (master)
+$ code chapter1.txt
+
+91816@Navi_Gill MINGW64 ~/gill/story (master)
+$ ls
+chapter1.txt
+
+91816@Navi_Gill MINGW64 ~/gill/story (master)
+$ ls -a
+./  ../  .git/  chapter1.txt
+
+91816@Navi_Gill MINGW64 ~/gill/story (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        chapter1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+91816@Navi_Gill MINGW64 ~/gill/story (master)
+$ git add chapter1.txt
+
+91816@Navi_Gill MINGW64 ~/gill/story (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   chapter1.txt
+
+
+91816@Navi_Gill MINGW64 ~/gill/story (master)
+$ git comit -m "Complete Chapter 1"
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+91816@Navi_Gill MINGW64 ~/gill/story (master)
+$ commit -m "Complete Chapter 1"
+bash: commit: command not found
+
+91816@Navi_Gill MINGW64 ~/gill/story (master)
+$ git Commit -m "Complete Chapter 1"
+git: 'Commit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+91816@Navi_Gill MINGW64 ~/gill/story (master)
+$ git commit -m "Complete Chapter 1"
+[master (root-commit) 4767854] Complete Chapter 1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 chapter1.txt
+
+91816@Navi_Gill MINGW64 ~/gill/story (master)
+$ git log
+commit 4767854287b9b003e49159645fdfcfb88076a434 (HEAD -> master)
+Author: navigill7 <nnavigill784@gmail.com>
+Date:   Sun Sep 10 20:07:48 2023 +0530
+
+    Complete Chapter 1
+
+91816@Navi_Gill MINGW64 ~/gill/story (master)
+$ touch chapter2.txt
+
+91816@Navi_Gill MINGW64 ~/gill/story (master)
+$ touch chapter3.txt
+
+91816@Navi_Gill MINGW64 ~/gill/story (master)
+$ code chapter2.txt
+
+91816@Navi_Gill MINGW64 ~/gill/story (master)
+$
+ *  History restored 
+
+
+91816@Navi_Gill MINGW64 /d/C++
+$
